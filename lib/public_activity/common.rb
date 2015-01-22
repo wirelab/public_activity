@@ -159,7 +159,7 @@ module PublicActivity
     # @api private
     # @since 0.5.0
     def public_activity_enabled?
-      PublicActivity.enabled?
+      PublicActivity.config.enabled
     end
     #
     # Shortcut for {ClassMethods#get_hook}
